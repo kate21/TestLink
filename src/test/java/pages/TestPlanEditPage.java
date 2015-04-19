@@ -20,14 +20,14 @@ public class TestPlanEditPage extends WebDriverStart {
 
     // Method for entering test-plan name
     public void enterTestPlanName() {
-        myDriver.findElement(testPlanNameField).sendKeys(name);
+        myDriver.findElement(testPlanNameField).sendKeys(TEST_PLAN_NAME);
     }
 
     // Method for entering test-plan description
     public void enterTestPlanDescription() {
         WebElement descriptionFrame = myDriver.findElement(testPlanNDescriptionFrame);
         myDriver.switchTo().frame(descriptionFrame);
-        myDriver.findElement(testPlanNDescriptionField).sendKeys(description);
+        myDriver.findElement(testPlanNDescriptionField).sendKeys(TEST_PLAN_DESCRIPTION);
         myDriver.switchTo().parentFrame();
     }
 

@@ -18,12 +18,12 @@ public class LoginPage extends WebDriverStart {
 
     // Method for entering username on "Log In" page
     public void enterUserName() {
-    myDriver.findElement(loginField).sendKeys(NAME);
+    myDriver.findElement(loginField).sendKeys(USER_NAME);
     }
 
     // Method for entering user password on "Log In" page
     public void enterPassword () {
-        myDriver.findElement(passwordField).sendKeys(PASSWORD);
+        myDriver.findElement(passwordField).sendKeys(USER_PASSWORD);
     }
 
     // Method for clicking "Log In" button

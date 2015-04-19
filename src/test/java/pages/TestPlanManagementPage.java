@@ -10,8 +10,8 @@ public class TestPlanManagementPage extends WebDriverStart {
 
     // Locators
     private static final By createTestPlanButton = By.name("create_testplan");
-    private static final By newTestPlanItem = By.xpath("//table[@id='item_view']/tbody/tr/td/a[contains(text(),'name')]");
-    private static final By deleteTestPlanButton = By.xpath("//table[@id='item_view']/tbody/tr/td/img[contains(@onclick,'name')]");
+    private static final By newTestPlanItem = By.xpath("//table[@id='item_view']/tbody/tr/td/a[contains(text(),'Rozetka_FR')]");
+    private static final By deleteTestPlanButton = By.xpath("//table[@id='item_view']/tbody/tr/td/img[contains(@onclick,'Rozetka_FR')]");
     private static final By yesDeleteTestPlanButton = By.id("ext-gen20");
 
     // Method for initial test-plan creation

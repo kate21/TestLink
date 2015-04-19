@@ -5,6 +5,6 @@ package models;
  */
 
 public class User {
-    public static String NAME = "tetiana";
-    public static String PASSWORD = "tm1234tm";
+    public static String USER_NAME = "tetiana";
+    public static String USER_PASSWORD = "tm1234tm";
 }

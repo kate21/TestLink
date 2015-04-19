@@ -5,6 +5,6 @@ package models;
  */
 
 public class TestPlan {
-    public static String name = "Some name";
-    public static String description = "Some description";
+    public static String TEST_PLAN_NAME = "Rozetka_FR";
+    public static String TEST_PLAN_DESCRIPTION = "Some description";
 }
